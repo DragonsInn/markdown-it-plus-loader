@@ -1,41 +1,39 @@
 {
-  "name":        "markdown-it-plus-loader",
+  "name": "markdown-it-plus-loader",
   "description": "Parse source as Markdown.",
-  "version":     "0.3.0",
-
-  "author": [{
-    "name":  "Daniel Perez Alvarez",
-    "email": "unindented@gmail.com",
-    "url":   "http://unindented.org/"
-  },{
-    "name":  "Kevin Ingwersen (Ingwie Phoenix)",
-    "email": "ingwie2000@gmail.com",
-    "url":   "http://ingwie.me"
-  }],
-
+  "version": "0.3.1",
+  "author": [
+    {
+      "name": "Daniel Perez Alvarez",
+      "email": "unindented@gmail.com",
+      "url": "http://unindented.org/"
+    },
+    {
+      "name": "Kevin Ingwersen (Ingwie Phoenix)",
+      "email": "ingwie2000@gmail.com",
+      "url": "http://ingwie.me"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url":  "git://github.com/DragonsInn/markdown-it-plus-loader.git"
+    "url": "git://github.com/DragonsInn/markdown-it-plus-loader.git"
   },
-
   "keywords": [
     "markdown-it",
     "markdown",
     "webpack"
   ],
-
   "scripts": {
     "test": "nodeunit test/loader.js"
   },
-
   "dependencies": {
-    "markdown-it":  "^5.0",
-    "highlight.js": "^8.8"
+    "highlight.js": "^8.8",
+    "markdown-it": "^5.0",
+    "microdash": "^1.3.0"
   },
-
   "devDependencies": {
-    "nodeunit":        "^0.9",
-    "cheerio":         "^0.19",
+    "nodeunit": "^0.9",
+    "cheerio": "^0.19",
     "markdown-it-sub": "^1.0",
     "markdown-it-sup": "^1.0"
   }
