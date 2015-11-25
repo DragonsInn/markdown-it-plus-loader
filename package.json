@@ -1,17 +1,21 @@
 {
-  "name":        "markdown-it-loader",
+  "name":        "markdown-it-plus-loader",
   "description": "Parse source as Markdown.",
-  "version":     "0.2.0",
+  "version":     "0.3.0",
 
-  "author": {
+  "author": [{
     "name":  "Daniel Perez Alvarez",
     "email": "unindented@gmail.com",
     "url":   "http://unindented.org/"
-  },
+  },{
+    "name":  "Kevin Ingwersen (Ingwie Phoenix)",
+    "email": "ingwie2000@gmail.com",
+    "url":   "http://ingwie.me"
+  }],
 
   "repository": {
     "type": "git",
-    "url":  "git://github.com/unindented/markdown-it-loader.git"
+    "url":  "git://github.com/DragonsInn/markdown-it-plus-loader.git"
   },
 
   "keywords": [
@@ -21,7 +25,7 @@
   ],
 
   "scripts": {
-    "test": "./node_modules/.bin/nodeunit test/loader.js"
+    "test": "nodeunit test/loader.js"
   },
 
   "dependencies": {
