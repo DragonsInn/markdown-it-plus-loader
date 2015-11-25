@@ -69,7 +69,7 @@ module.exports = function (source) {
   var rtObj = postprocess.call(this, parser, env);
 
   return [
-      "/* Generated using markdown-it-plus loader. */"
+      "/* Generated using markdown-it-plus loader. */",
       "module.exports = "+JSON.stringify(rtObj)
   ].join("\n");
 };
